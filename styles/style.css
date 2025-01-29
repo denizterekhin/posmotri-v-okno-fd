@@ -78,6 +78,9 @@ ol {
   align-items: end;
   margin-top: 16px;
 }
+.search-form__fieldset:first-child{
+  gap: 6px;
+}
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
@@ -104,7 +107,6 @@ ol {
 .search-form__textfield {
   display: inline-flex;
   min-width: 225px;
-  margin-top: 6px;
   border-width: 1px 0px 1px 0px;
   border-style: solid;
   border-color: currentColor;
